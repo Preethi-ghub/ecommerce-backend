@@ -124,6 +124,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 GRAPHENE = {
-    "SCHEMA": "store.schema.schema"  # This tells Django where to find your GraphQL schema
+    "SCHEMA": "store.schema.schema"  
 }
-
